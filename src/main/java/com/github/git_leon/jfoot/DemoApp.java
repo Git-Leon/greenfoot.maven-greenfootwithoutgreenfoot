@@ -1,4 +1,4 @@
-package io.lerk.demo;
+package com.github.git_leon.jfoot;
 
 import greenfoot.export.GreenfootScenarioViewer;
 

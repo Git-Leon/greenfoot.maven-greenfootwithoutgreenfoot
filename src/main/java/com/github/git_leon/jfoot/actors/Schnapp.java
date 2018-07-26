@@ -1,8 +1,8 @@
-package io.lerk.demo.actors;
+package com.github.git_leon.jfoot.actors;
 
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
-import io.lerk.demo.worlds.MyWorld;
+import com.github.git_leon.jfoot.worlds.MyWorld;
 
 /**
  *

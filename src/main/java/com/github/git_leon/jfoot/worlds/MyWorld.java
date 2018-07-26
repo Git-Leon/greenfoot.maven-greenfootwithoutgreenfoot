@@ -1,8 +1,10 @@
-package io.lerk.demo.worlds;
+package com.github.git_leon.jfoot.worlds;
 
+import com.github.git_leon.jfoot.actors.*;
+import com.github.git_leon.jfoot.actors.buttons.ButtonAction;
+import com.github.git_leon.jfoot.actors.buttons.Button;
 import greenfoot.Greenfoot;
 import greenfoot.World;
-import io.lerk.demo.actors.*;
 
 /**
  *
@@ -60,7 +62,7 @@ public class MyWorld extends World {
         removeObject(schnapp);
         removeObject(thug);
 
-        addObject(new Button(Button.Action.RESTART, b -> {
+        addObject(new Button(ButtonAction.RESTART, b -> {
             removeObject(b);
             removeObject(text);
             addObjects();

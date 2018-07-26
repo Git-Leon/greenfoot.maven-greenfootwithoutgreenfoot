@@ -1,4 +1,4 @@
-package io.lerk.demo.actors;
+package com.github.git_leon.jfoot.actors;
 
 import greenfoot.*;
 

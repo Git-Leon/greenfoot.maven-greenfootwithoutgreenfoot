@@ -47,7 +47,7 @@
                     </excludes>
                     <archive>
                         <manifest>
-                            <mainClass>io.lerk.demo.DemoApp</mainClass>
+                            <mainClass>com.github.git_leon.jfoot.DemoApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -57,7 +57,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>io.lerk.demo.DemoApp</mainClass>
+                            <mainClass>com.github.git_leon.jfoot.DemoApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
