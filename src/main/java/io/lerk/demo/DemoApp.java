@@ -1,12 +1,12 @@
 package io.lerk.demo;
 
-import greenfoot.export.GreenfootScenarioMain;
+import greenfoot.export.GreenfootScenarioViewer;
 
 /**
  * @author Lukas Fülling (lukas@k40s.net)
  */
-public class DemoApp extends GreenfootScenarioMain {
+public class DemoApp extends GreenfootScenarioViewer {
     public static void main(String[] args) {
-        GreenfootScenarioMain.main(args);
+        GreenfootScenarioViewer.main(args);
     }
 }
