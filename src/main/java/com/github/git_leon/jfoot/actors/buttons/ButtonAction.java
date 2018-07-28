@@ -2,6 +2,7 @@ package com.github.git_leon.jfoot.actors.buttons;
 
 
 import com.github.git_leon.jfoot.ResourceDirectory;
+import greenfoot.GreenfootImage;
 
 public enum ButtonAction {
     RESTART(ResourceDirectory.IMAGES + "restart.png");
@@ -12,7 +13,7 @@ public enum ButtonAction {
         this.image = image;
     }
 
-    public String getImage() {
-        return image;
+    public GreenfootImage getImage() {
+        return new GreenfootImage(image);
     }
 }
